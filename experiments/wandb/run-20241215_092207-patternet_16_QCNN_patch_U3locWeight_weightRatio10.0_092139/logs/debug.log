@@ -1,0 +1,223 @@
+2024-12-15 09:22:07,239 INFO    MainThread:226189 [wandb_setup.py:_flush():76] Loading settings from /dss/dsshome1/lxc0C/ge32luv/.config/wandb/settings
+2024-12-15 09:22:07,241 INFO    MainThread:226189 [wandb_setup.py:_flush():76] Loading settings from /dss/dsshome1/lxc0C/ge32luv/Transfer_TNNLS/wandb/settings
+2024-12-15 09:22:07,241 INFO    MainThread:226189 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***', 'run_id': 'patternet_16_QCNN_patch_U3locWeight_weightRatio10.0_092139', 'resume': 'allow'}
+2024-12-15 09:22:07,241 INFO    MainThread:226189 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'QCNNpatch.py', 'program': '/dss/dsshome1/lxc0C/ge32luv/Transfer_TNNLS/QCNNpatch.py'}
+2024-12-15 09:22:07,242 INFO    MainThread:226189 [wandb_init.py:_log_setup():428] Logging user logs to experiments/wandb/run-20241215_092207-patternet_16_QCNN_patch_U3locWeight_weightRatio10.0_092139/logs/debug.log
+2024-12-15 09:22:07,243 INFO    MainThread:226189 [wandb_init.py:_log_setup():429] Logging internal logs to experiments/wandb/run-20241215_092207-patternet_16_QCNN_patch_U3locWeight_weightRatio10.0_092139/logs/debug-internal.log
+2024-12-15 09:22:07,245 INFO    MainThread:226189 [wandb_init.py:init():462] calling init triggers
+2024-12-15 09:22:07,246 INFO    MainThread:226189 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'data': 'patternet', 'seed': 16, 'loss': 'mult-tasks', 'categories': 4, 'lr': 0.01, 'label_ratio': 0.1, 'unlabel_ratio': 0.9, 'weight_ratio': 10.0, 'qDressed': False, 'qDressed_layers': 0, 'multiScale': False, 'warmup': False, 'warmup_step': 0, 'locWeight': True, 'batch': 50, 'train_samples': 192, 'valid_samples': 640, 'test_samples': 640, 'paraToken': 10180, 'paraClassifier': 260, 'paraFeature': 198, 'para': 10638}
+2024-12-15 09:22:07,247 INFO    MainThread:226189 [wandb_init.py:init():515] starting backend
+2024-12-15 09:22:07,248 INFO    MainThread:226189 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-12-15 09:22:07,323 INFO    MainThread:226189 [backend.py:ensure_launched():217] starting backend process...
+2024-12-15 09:22:07,366 INFO    MainThread:226189 [backend.py:ensure_launched():222] started backend process with pid: 227391
+2024-12-15 09:22:07,368 INFO    MainThread:226189 [wandb_init.py:init():525] backend started and connected
+2024-12-15 09:22:07,385 INFO    MainThread:226189 [wandb_init.py:init():596] updated telemetry
+2024-12-15 09:22:07,386 INFO    MainThread:226189 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-12-15 09:22:09,455 INFO    MainThread:226189 [wandb_run.py:_on_init():1924] communicating current version
+2024-12-15 09:22:09,597 INFO    MainThread:226189 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.19.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-12-15 09:22:09,597 INFO    MainThread:226189 [wandb_init.py:init():662] starting run threads in backend
+2024-12-15 09:22:14,087 INFO    MainThread:226189 [wandb_run.py:_console_start():1898] atexit reg
+2024-12-15 09:22:14,089 INFO    MainThread:226189 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-12-15 09:22:14,090 INFO    MainThread:226189 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-12-15 09:22:14,092 INFO    MainThread:226189 [wandb_run.py:_redirect():1832] Redirects installed.
+2024-12-15 09:22:14,092 INFO    MainThread:226189 [wandb_init.py:init():688] run started, returning control to user process
+2024-12-15 11:48:54,241 INFO    MainThread:226189 [wandb_run.py:_config_callback():1136] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2024-12-15 11:49:03,243 INFO    MainThread:226189 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2024-12-15 11:49:03,246 INFO    MainThread:226189 [wandb_run.py:_restore():1839] restore
+2024-12-15 11:49:05,294 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5550336
+  total_bytes: 5550336
+}
+
+2024-12-15 11:49:05,575 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5550336
+  total_bytes: 5550336
+}
+
+2024-12-15 11:49:06,334 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 3
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5550336
+  total_bytes: 5562553
+}
+
+2024-12-15 11:49:06,436 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5474576
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:06,538 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5474576
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:06,641 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5474576
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:06,743 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5474576
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:06,845 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5505398
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:06,947 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5585509
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:07,050 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:07,152 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:07,254 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:07,355 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:07,457 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:07,558 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:08,104 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+
+2024-12-15 11:49:08,387 INFO    MainThread:226189 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 5595565
+  total_bytes: 5595565
+}
+local_info {
+}
+
+2024-12-15 11:49:09,934 INFO    MainThread:226189 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-12-15 11:49:09,935 INFO    MainThread:226189 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-12-15 11:49:09,940 INFO    MainThread:226189 [wandb_run.py:_footer_sync_info():3060] logging synced files

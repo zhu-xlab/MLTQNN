@@ -1,0 +1,169 @@
+
+Epoch 1/200
+42/42 - 171s - loss: 1.7046 - classifier_loss: 1.2799 - reconstruction_loss: 0.0849 - classifier_accuracy: 0.4648 - val_loss: 1.1181 - val_classifier_loss: 0.8922 - val_reconstruction_loss: 0.0452 - val_classifier_accuracy: 0.6108 - _timestamp: 1733680034.0000 - _runtime: 177.0000 - 171s/epoch - 4s/step
+Epoch 2/200
+42/42 - 163s - loss: 0.8228 - classifier_loss: 0.6871 - reconstruction_loss: 0.0271 - classifier_accuracy: 0.7071 - val_loss: 0.6273 - val_classifier_loss: 0.5490 - val_reconstruction_loss: 0.0157 - val_classifier_accuracy: 0.7383 - _timestamp: 1733680196.0000 - _runtime: 339.0000 - 163s/epoch - 4s/step
+Epoch 3/200
+42/42 - 155s - loss: 0.5153 - classifier_loss: 0.4365 - reconstruction_loss: 0.0158 - classifier_accuracy: 0.8381 - val_loss: 0.4081 - val_classifier_loss: 0.3425 - val_reconstruction_loss: 0.0131 - val_classifier_accuracy: 0.8608 - _timestamp: 1733680352.0000 - _runtime: 495.0000 - 155s/epoch - 4s/step
+Epoch 4/200
+42/42 - 167s - loss: 0.3625 - classifier_loss: 0.3016 - reconstruction_loss: 0.0122 - classifier_accuracy: 0.8881 - val_loss: 0.3037 - val_classifier_loss: 0.2531 - val_reconstruction_loss: 0.0101 - val_classifier_accuracy: 0.9092 - _timestamp: 1733680519.0000 - _runtime: 662.0000 - 167s/epoch - 4s/step
+Epoch 5/200
+42/42 - 159s - loss: 0.3114 - classifier_loss: 0.2579 - reconstruction_loss: 0.0107 - classifier_accuracy: 0.9033 - val_loss: 0.3156 - val_classifier_loss: 0.2591 - val_reconstruction_loss: 0.0113 - val_classifier_accuracy: 0.8983 - _timestamp: 1733680678.0000 - _runtime: 821.0000 - 159s/epoch - 4s/step
+Epoch 6/200
+42/42 - 165s - loss: 0.3222 - classifier_loss: 0.2730 - reconstruction_loss: 0.0098 - classifier_accuracy: 0.9019 - val_loss: 0.3679 - val_classifier_loss: 0.3104 - val_reconstruction_loss: 0.0115 - val_classifier_accuracy: 0.8908 - _timestamp: 1733680843.0000 - _runtime: 986.0000 - 165s/epoch - 4s/step
+Epoch 7/200
+42/42 - 168s - loss: 0.3052 - classifier_loss: 0.2545 - reconstruction_loss: 0.0102 - classifier_accuracy: 0.9052 - val_loss: 0.3384 - val_classifier_loss: 0.2740 - val_reconstruction_loss: 0.0129 - val_classifier_accuracy: 0.8975 - _timestamp: 1733681010.0000 - _runtime: 1153.0000 - 168s/epoch - 4s/step
+Epoch 8/200
+42/42 - 167s - loss: 0.2910 - classifier_loss: 0.2405 - reconstruction_loss: 0.0101 - classifier_accuracy: 0.9167 - val_loss: 0.2440 - val_classifier_loss: 0.2012 - val_reconstruction_loss: 0.0085 - val_classifier_accuracy: 0.9275 - _timestamp: 1733681178.0000 - _runtime: 1321.0000 - 167s/epoch - 4s/step
+Epoch 9/200
+42/42 - 171s - loss: 0.2371 - classifier_loss: 0.1946 - reconstruction_loss: 0.0085 - classifier_accuracy: 0.9271 - val_loss: 0.2625 - val_classifier_loss: 0.2132 - val_reconstruction_loss: 0.0098 - val_classifier_accuracy: 0.9142 - _timestamp: 1733681348.0000 - _runtime: 1491.0000 - 171s/epoch - 4s/step
+Epoch 10/200
+42/42 - 164s - loss: 0.2912 - classifier_loss: 0.2413 - reconstruction_loss: 0.0100 - classifier_accuracy: 0.9057 - val_loss: 0.2514 - val_classifier_loss: 0.1970 - val_reconstruction_loss: 0.0109 - val_classifier_accuracy: 0.9167 - _timestamp: 1733681512.0000 - _runtime: 1655.0000 - 164s/epoch - 4s/step
+Epoch 11/200
+42/42 - 164s - loss: 0.2510 - classifier_loss: 0.2039 - reconstruction_loss: 0.0094 - classifier_accuracy: 0.9200 - val_loss: 0.2407 - val_classifier_loss: 0.1995 - val_reconstruction_loss: 0.0082 - val_classifier_accuracy: 0.9242 - _timestamp: 1733681676.0000 - _runtime: 1819.0000 - 164s/epoch - 4s/step
+Epoch 12/200
+42/42 - 166s - loss: 0.2213 - classifier_loss: 0.1809 - reconstruction_loss: 0.0081 - classifier_accuracy: 0.9352 - val_loss: 0.2212 - val_classifier_loss: 0.1803 - val_reconstruction_loss: 0.0082 - val_classifier_accuracy: 0.9383 - _timestamp: 1733681843.0000 - _runtime: 1986.0000 - 166s/epoch - 4s/step
+Epoch 13/200
+42/42 - 170s - loss: 0.2263 - classifier_loss: 0.1829 - reconstruction_loss: 0.0087 - classifier_accuracy: 0.9324 - val_loss: 0.2345 - val_classifier_loss: 0.1854 - val_reconstruction_loss: 0.0098 - val_classifier_accuracy: 0.9333 - _timestamp: 1733682013.0000 - _runtime: 2156.0000 - 170s/epoch - 4s/step
+Epoch 14/200
+42/42 - 171s - loss: 0.2286 - classifier_loss: 0.1874 - reconstruction_loss: 0.0082 - classifier_accuracy: 0.9333 - val_loss: 0.2105 - val_classifier_loss: 0.1711 - val_reconstruction_loss: 0.0079 - val_classifier_accuracy: 0.9350 - _timestamp: 1733682184.0000 - _runtime: 2327.0000 - 171s/epoch - 4s/step
+Epoch 15/200
+42/42 - 167s - loss: 0.2178 - classifier_loss: 0.1770 - reconstruction_loss: 0.0082 - classifier_accuracy: 0.9319 - val_loss: 0.2873 - val_classifier_loss: 0.2294 - val_reconstruction_loss: 0.0116 - val_classifier_accuracy: 0.9083 - _timestamp: 1733682351.0000 - _runtime: 2494.0000 - 167s/epoch - 4s/step
+Epoch 16/200
+42/42 - 174s - loss: 0.2600 - classifier_loss: 0.2124 - reconstruction_loss: 0.0095 - classifier_accuracy: 0.9162 - val_loss: 0.2521 - val_classifier_loss: 0.2105 - val_reconstruction_loss: 0.0083 - val_classifier_accuracy: 0.9258 - _timestamp: 1733682525.0000 - _runtime: 2668.0000 - 174s/epoch - 4s/step
+Epoch 17/200
+42/42 - 172s - loss: 0.2177 - classifier_loss: 0.1762 - reconstruction_loss: 0.0083 - classifier_accuracy: 0.9286 - val_loss: 0.2179 - val_classifier_loss: 0.1700 - val_reconstruction_loss: 0.0096 - val_classifier_accuracy: 0.9392 - _timestamp: 1733682697.0000 - _runtime: 2840.0000 - 172s/epoch - 4s/step
+Epoch 18/200
+42/42 - 168s - loss: 0.2345 - classifier_loss: 0.1889 - reconstruction_loss: 0.0091 - classifier_accuracy: 0.9243 - val_loss: 0.3111 - val_classifier_loss: 0.2634 - val_reconstruction_loss: 0.0095 - val_classifier_accuracy: 0.9067 - _timestamp: 1733682866.0000 - _runtime: 3009.0000 - 168s/epoch - 4s/step
+Epoch 19/200
+42/42 - 159s - loss: 0.2225 - classifier_loss: 0.1813 - reconstruction_loss: 0.0082 - classifier_accuracy: 0.9305 - val_loss: 0.2379 - val_classifier_loss: 0.1915 - val_reconstruction_loss: 0.0093 - val_classifier_accuracy: 0.9233 - _timestamp: 1733683025.0000 - _runtime: 3168.0000 - 159s/epoch - 4s/step
+Epoch 20/200
+42/42 - 160s - loss: 0.2031 - classifier_loss: 0.1641 - reconstruction_loss: 0.0078 - classifier_accuracy: 0.9381 - val_loss: 0.2377 - val_classifier_loss: 0.1955 - val_reconstruction_loss: 0.0085 - val_classifier_accuracy: 0.9225 - _timestamp: 1733683185.0000 - _runtime: 3328.0000 - 160s/epoch - 4s/step
+Epoch 21/200
+42/42 - 157s - loss: 0.2298 - classifier_loss: 0.1811 - reconstruction_loss: 0.0097 - classifier_accuracy: 0.9324 - val_loss: 0.2327 - val_classifier_loss: 0.1932 - val_reconstruction_loss: 0.0079 - val_classifier_accuracy: 0.9250 - _timestamp: 1733683343.0000 - _runtime: 3486.0000 - 157s/epoch - 4s/step
+Epoch 22/200
+42/42 - 164s - loss: 0.1983 - classifier_loss: 0.1591 - reconstruction_loss: 0.0078 - classifier_accuracy: 0.9362 - val_loss: 0.2072 - val_classifier_loss: 0.1688 - val_reconstruction_loss: 0.0077 - val_classifier_accuracy: 0.9317 - _timestamp: 1733683507.0000 - _runtime: 3650.0000 - 164s/epoch - 4s/step
+Epoch 23/200
+42/42 - 167s - loss: 0.2144 - classifier_loss: 0.1727 - reconstruction_loss: 0.0083 - classifier_accuracy: 0.9310 - val_loss: 0.2107 - val_classifier_loss: 0.1728 - val_reconstruction_loss: 0.0076 - val_classifier_accuracy: 0.9375 - _timestamp: 1733683674.0000 - _runtime: 3817.0000 - 167s/epoch - 4s/step
+Epoch 24/200
+42/42 - 174s - loss: 0.2132 - classifier_loss: 0.1691 - reconstruction_loss: 0.0088 - classifier_accuracy: 0.9367 - val_loss: 0.2353 - val_classifier_loss: 0.1940 - val_reconstruction_loss: 0.0083 - val_classifier_accuracy: 0.9267 - _timestamp: 1733683848.0000 - _runtime: 3991.0000 - 174s/epoch - 4s/step
+Epoch 25/200
+42/42 - 171s - loss: 0.1822 - classifier_loss: 0.1427 - reconstruction_loss: 0.0079 - classifier_accuracy: 0.9471 - val_loss: 0.2184 - val_classifier_loss: 0.1813 - val_reconstruction_loss: 0.0074 - val_classifier_accuracy: 0.9325 - _timestamp: 1733684019.0000 - _runtime: 4162.0000 - 171s/epoch - 4s/step
+Epoch 26/200
+42/42 - 169s - loss: 0.1728 - classifier_loss: 0.1355 - reconstruction_loss: 0.0075 - classifier_accuracy: 0.9500 - val_loss: 0.2172 - val_classifier_loss: 0.1780 - val_reconstruction_loss: 0.0078 - val_classifier_accuracy: 0.9292 - _timestamp: 1733684188.0000 - _runtime: 4331.0000 - 169s/epoch - 4s/step
+Epoch 27/200
+42/42 - 173s - loss: 0.1838 - classifier_loss: 0.1461 - reconstruction_loss: 0.0075 - classifier_accuracy: 0.9429 - val_loss: 0.2260 - val_classifier_loss: 0.1899 - val_reconstruction_loss: 0.0072 - val_classifier_accuracy: 0.9317 - _timestamp: 1733684361.0000 - _runtime: 4504.0000 - 173s/epoch - 4s/step
+Epoch 28/200
+42/42 - 170s - loss: 0.2009 - classifier_loss: 0.1614 - reconstruction_loss: 0.0079 - classifier_accuracy: 0.9395 - val_loss: 0.1928 - val_classifier_loss: 0.1525 - val_reconstruction_loss: 0.0081 - val_classifier_accuracy: 0.9483 - _timestamp: 1733684531.0000 - _runtime: 4674.0000 - 170s/epoch - 4s/step
+Epoch 29/200
+42/42 - 175s - loss: 0.1805 - classifier_loss: 0.1427 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9443 - val_loss: 0.2272 - val_classifier_loss: 0.1901 - val_reconstruction_loss: 0.0074 - val_classifier_accuracy: 0.9283 - _timestamp: 1733684706.0000 - _runtime: 4849.0000 - 175s/epoch - 4s/step
+Epoch 30/200
+42/42 - 171s - loss: 0.1842 - classifier_loss: 0.1471 - reconstruction_loss: 0.0074 - classifier_accuracy: 0.9452 - val_loss: 0.2090 - val_classifier_loss: 0.1694 - val_reconstruction_loss: 0.0079 - val_classifier_accuracy: 0.9425 - _timestamp: 1733684876.0000 - _runtime: 5019.0000 - 171s/epoch - 4s/step
+Epoch 31/200
+42/42 - 174s - loss: 0.1751 - classifier_loss: 0.1370 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9467 - val_loss: 0.2087 - val_classifier_loss: 0.1676 - val_reconstruction_loss: 0.0082 - val_classifier_accuracy: 0.9375 - _timestamp: 1733685050.0000 - _runtime: 5193.0000 - 174s/epoch - 4s/step
+Epoch 32/200
+42/42 - 178s - loss: 0.1884 - classifier_loss: 0.1501 - reconstruction_loss: 0.0077 - classifier_accuracy: 0.9405 - val_loss: 0.2298 - val_classifier_loss: 0.1866 - val_reconstruction_loss: 0.0087 - val_classifier_accuracy: 0.9317 - _timestamp: 1733685227.0000 - _runtime: 5370.0000 - 178s/epoch - 4s/step
+Epoch 33/200
+42/42 - 168s - loss: 0.1792 - classifier_loss: 0.1407 - reconstruction_loss: 0.0077 - classifier_accuracy: 0.9476 - val_loss: 0.2001 - val_classifier_loss: 0.1618 - val_reconstruction_loss: 0.0077 - val_classifier_accuracy: 0.9375 - _timestamp: 1733685395.0000 - _runtime: 5538.0000 - 168s/epoch - 4s/step
+Epoch 34/200
+42/42 - 174s - loss: 0.1666 - classifier_loss: 0.1275 - reconstruction_loss: 0.0078 - classifier_accuracy: 0.9533 - val_loss: 0.2042 - val_classifier_loss: 0.1670 - val_reconstruction_loss: 0.0074 - val_classifier_accuracy: 0.9383 - _timestamp: 1733685569.0000 - _runtime: 5712.0000 - 174s/epoch - 4s/step
+Epoch 35/200
+42/42 - 168s - loss: 0.1943 - classifier_loss: 0.1542 - reconstruction_loss: 0.0080 - classifier_accuracy: 0.9381 - val_loss: 0.1879 - val_classifier_loss: 0.1484 - val_reconstruction_loss: 0.0079 - val_classifier_accuracy: 0.9450 - _timestamp: 1733685738.0000 - _runtime: 5881.0000 - 168s/epoch - 4s/step
+Epoch 36/200
+42/42 - 164s - loss: 0.1688 - classifier_loss: 0.1288 - reconstruction_loss: 0.0080 - classifier_accuracy: 0.9519 - val_loss: 0.2063 - val_classifier_loss: 0.1663 - val_reconstruction_loss: 0.0080 - val_classifier_accuracy: 0.9425 - _timestamp: 1733685902.0000 - _runtime: 6045.0000 - 164s/epoch - 4s/step
+Epoch 37/200
+42/42 - 172s - loss: 0.1732 - classifier_loss: 0.1309 - reconstruction_loss: 0.0085 - classifier_accuracy: 0.9467 - val_loss: 0.1964 - val_classifier_loss: 0.1551 - val_reconstruction_loss: 0.0083 - val_classifier_accuracy: 0.9458 - _timestamp: 1733686074.0000 - _runtime: 6217.0000 - 172s/epoch - 4s/step
+Epoch 38/200
+42/42 - 172s - loss: 0.1575 - classifier_loss: 0.1195 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9552 - val_loss: 0.1820 - val_classifier_loss: 0.1465 - val_reconstruction_loss: 0.0071 - val_classifier_accuracy: 0.9492 - _timestamp: 1733686247.0000 - _runtime: 6390.0000 - 172s/epoch - 4s/step
+Epoch 39/200
+42/42 - 177s - loss: 0.1677 - classifier_loss: 0.1296 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9490 - val_loss: 0.2455 - val_classifier_loss: 0.1892 - val_reconstruction_loss: 0.0112 - val_classifier_accuracy: 0.9217 - _timestamp: 1733686424.0000 - _runtime: 6567.0000 - 177s/epoch - 4s/step
+Epoch 40/200
+42/42 - 169s - loss: 0.1745 - classifier_loss: 0.1318 - reconstruction_loss: 0.0086 - classifier_accuracy: 0.9505 - val_loss: 0.2265 - val_classifier_loss: 0.1764 - val_reconstruction_loss: 0.0100 - val_classifier_accuracy: 0.9408 - _timestamp: 1733686593.0000 - _runtime: 6736.0000 - 169s/epoch - 4s/step
+Epoch 41/200
+42/42 - 171s - loss: 0.1591 - classifier_loss: 0.1165 - reconstruction_loss: 0.0085 - classifier_accuracy: 0.9543 - val_loss: 0.1801 - val_classifier_loss: 0.1414 - val_reconstruction_loss: 0.0077 - val_classifier_accuracy: 0.9525 - _timestamp: 1733686764.0000 - _runtime: 6907.0000 - 171s/epoch - 4s/step
+Epoch 42/200
+42/42 - 174s - loss: 0.1435 - classifier_loss: 0.1073 - reconstruction_loss: 0.0072 - classifier_accuracy: 0.9590 - val_loss: 0.1767 - val_classifier_loss: 0.1391 - val_reconstruction_loss: 0.0075 - val_classifier_accuracy: 0.9500 - _timestamp: 1733686939.0000 - _runtime: 7082.0000 - 174s/epoch - 4s/step
+Epoch 43/200
+42/42 - 169s - loss: 0.1468 - classifier_loss: 0.1089 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9557 - val_loss: 0.2122 - val_classifier_loss: 0.1679 - val_reconstruction_loss: 0.0089 - val_classifier_accuracy: 0.9467 - _timestamp: 1733687107.0000 - _runtime: 7250.0000 - 169s/epoch - 4s/step
+Epoch 44/200
+42/42 - 169s - loss: 0.1499 - classifier_loss: 0.1120 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9643 - val_loss: 0.2436 - val_classifier_loss: 0.2046 - val_reconstruction_loss: 0.0078 - val_classifier_accuracy: 0.9308 - _timestamp: 1733687277.0000 - _runtime: 7420.0000 - 169s/epoch - 4s/step
+Epoch 45/200
+42/42 - 169s - loss: 0.1431 - classifier_loss: 0.1029 - reconstruction_loss: 0.0080 - classifier_accuracy: 0.9605 - val_loss: 0.1785 - val_classifier_loss: 0.1427 - val_reconstruction_loss: 0.0072 - val_classifier_accuracy: 0.9483 - _timestamp: 1733687446.0000 - _runtime: 7589.0000 - 169s/epoch - 4s/step
+Epoch 46/200
+42/42 - 171s - loss: 0.1344 - classifier_loss: 0.0964 - reconstruction_loss: 0.0076 - classifier_accuracy: 0.9633 - val_loss: 0.1993 - val_classifier_loss: 0.1625 - val_reconstruction_loss: 0.0074 - val_classifier_accuracy: 0.9500 - _timestamp: 1733687617.0000 - _runtime: 7760.0000 - 171s/epoch - 4s/step
+Epoch 47/200
+42/42 - 177s - loss: 0.1573 - classifier_loss: 0.1189 - reconstruction_loss: 0.0077 - classifier_accuracy: 0.9524 - val_loss: 0.2455 - val_classifier_loss: 0.2055 - val_reconstruction_loss: 0.0080 - val_classifier_accuracy: 0.9275 - _timestamp: 1733687794.0000 - _runtime: 7937.0000 - 177s/epoch - 4s/step
+Epoch 48/200
+42/42 - 168s - loss: 0.1541 - classifier_loss: 0.1145 - reconstruction_loss: 0.0079 - classifier_accuracy: 0.9576 - val_loss: 0.2056 - val_classifier_loss: 0.1539 - val_reconstruction_loss: 0.0103 - val_classifier_accuracy: 0.9450 - _timestamp: 1733687962.0000 - _runtime: 8105.0000 - 168s/epoch - 4s/step
+Epoch 49/200
+42/42 - 171s - loss: 0.1706 - classifier_loss: 0.1247 - reconstruction_loss: 0.0092 - classifier_accuracy: 0.9543 - val_loss: 0.2074 - val_classifier_loss: 0.1708 - val_reconstruction_loss: 0.0073 - val_classifier_accuracy: 0.9333 - _timestamp: 1733688132.0000 - _runtime: 8275.0000 - 171s/epoch - 4s/step
+Epoch 50/200
+42/42 - 170s - loss: 0.1310 - classifier_loss: 0.0947 - reconstruction_loss: 0.0073 - classifier_accuracy: 0.9633 - val_loss: 0.1894 - val_classifier_loss: 0.1503 - val_reconstruction_loss: 0.0078 - val_classifier_accuracy: 0.9442 - _timestamp: 1733688302.0000 - _runtime: 8445.0000 - 170s/epoch - 4s/step
+Epoch 51/200
+42/42 - 172s - loss: 0.1226 - classifier_loss: 0.0859 - reconstruction_loss: 0.0073 - classifier_accuracy: 0.9648 - val_loss: 0.1851 - val_classifier_loss: 0.1480 - val_reconstruction_loss: 0.0074 - val_classifier_accuracy: 0.9508 - _timestamp: 1733688474.0000 - _runtime: 8617.0000 - 172s/epoch - 4s/step
+Epoch 52/200
+42/42 - 175s - loss: 0.1319 - classifier_loss: 0.0960 - reconstruction_loss: 0.0072 - classifier_accuracy: 0.9619 - val_loss: 0.2429 - val_classifier_loss: 0.1997 - val_reconstruction_loss: 0.0086 - val_classifier_accuracy: 0.9400 - _timestamp: 1733688649.0000 - _runtime: 8792.0000 - 175s/epoch - 4s/step
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66/66 [==============================] - 60s 848ms/step - loss: 0.1314 - classifier_loss: 0.0945 - reconstruction_loss: 0.0074 - classifier_accuracy: 0.9695
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38/38 [==============================] - 34s 899ms/step - loss: 0.1767 - classifier_loss: 0.1391 - reconstruction_loss: 0.0075 - classifier_accuracy: 0.9500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38/38 [==============================] - 37s 973ms/step - loss: 0.1825 - classifier_loss: 0.1451 - reconstruction_loss: 0.0075 - classifier_accuracy: 0.9525

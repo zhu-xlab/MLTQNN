@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.14.0-427.26.1.el9_4.x86_64-x86_64-with-glibc2.34",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-12-11T06:08:59.578429",
+    "startedAt": "2024-12-11T06:08:53.382366",
+    "docker": null,
+    "cpu_count": 384,
+    "cuda": null,
+    "args": [
+        "-d",
+        "eurosat",
+        "-s",
+        "16",
+        "-label_ratio",
+        "0.1",
+        "-locWeight",
+        "True",
+        "-wr",
+        "3"
+    ],
+    "state": "running",
+    "program": "/dss/dsshome1/lxc0C/ge32luv/Transfer_TNNLS/QCNNpatch.py",
+    "codePath": "QCNNpatch.py",
+    "host": "qlm",
+    "username": "ge32luv",
+    "executable": "/dss/dsshome1/lxc0C/ge32luv/myenv/bin/python"
+}

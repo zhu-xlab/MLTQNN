@@ -1,0 +1,132 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.16
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.18
+    start_time: 1733757275
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 12
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 12
+      - 53
+      - 55
+      3:
+      - 3
+      - 8
+      - 13
+      - 16
+      4: 3.9.18
+      5: 0.12.16
+      8:
+      - 5
+    visualize:
+      conf_mat:
+        panel_config:
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          panelDefId: wandb/confusion_matrix/v1
+          stringSettings:
+            title: ''
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: conf_mat_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+batch:
+  desc: null
+  value: 50
+categories:
+  desc: null
+  value: 5
+data:
+  desc: null
+  value: lcz
+label_ratio:
+  desc: null
+  value: 0.5
+locWeight:
+  desc: null
+  value: true
+loss:
+  desc: null
+  value: mult-tasks
+lr:
+  desc: null
+  value: 0.01
+multiScale:
+  desc: null
+  value: false
+para:
+  desc: null
+  value: 1844
+paraClassifier:
+  desc: null
+  value: 325
+paraFeature:
+  desc: null
+  value: 198
+paraToken:
+  desc: null
+  value: 1321
+qDressed:
+  desc: null
+  value: false
+qDressed_layers:
+  desc: null
+  value: 0
+seed:
+  desc: null
+  value: 19
+test_samples:
+  desc: null
+  value: 2000
+train_samples:
+  desc: null
+  value: 3000
+unlabel_ratio:
+  desc: null
+  value: 0.5
+valid_samples:
+  desc: null
+  value: 2000
+warmup:
+  desc: null
+  value: false
+warmup_step:
+  desc: null
+  value: 0
+weight_ratio:
+  desc: null
+  value: 5.0
